@@ -99,6 +99,28 @@ The notebook includes various visualizations such as:
 
 ---
 
+## Project Visualizations
+
+### State-wise AQI Analysis
+
+![State-wise AQI](state_wise_aqi.png)
+
+Comparison of average AQI values across different Indian states and union territories.
+
+### State-wise SO₂ Analysis
+
+![SO₂ Analysis](so2_analysis.png)
+
+Visualization of sulphur dioxide concentration levels across Indian states.
+
+### AQI Category Distribution
+
+![AQI Distribution](aqi_distribution.png)
+
+Distribution of air quality categories showing the overall air pollution profile of the dataset.
+
+---
+
 ## Results
 
 The analysis identifies major pollution patterns and demonstrates how machine learning can be used to classify air quality levels based on environmental parameters.
@@ -118,6 +140,9 @@ Data_Analysis_On_Indian_AQI/
 │
 ├── AQI.xlsx
 ├── IndianAQIanalysis.ipynb
+├── state_wise_aqi.png
+├── so2_analysis.png
+├── aqi_distribution.png
 └── README.md
 ```
 
@@ -155,4 +180,3 @@ Open:
 IndianAQIanalysis.ipynb
 ```
 ---
-
