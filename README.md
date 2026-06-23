@@ -1,5 +1,158 @@
-# Data_Analysis_On_Indian_AQI
+# Data Analysis on Indian Air Quality Index (AQI)
 
-Air Quality Index (AQI) is a number used to convey the quality of air by the government to the general public. Air quality deteriorates with an increase in the concentration of pollutants. The Air Quality Index represents the severity of pollution for ordinary people. Using this data, it is possible to make predictions by taking data from any area or place. 
+## Overview
 
-This file contains an analysis of air quality data in India. It is a Jupyter notebook that includes Python code for data analysis using libraries such as Pandas, NumPy, Seaborn, Matplotlib, and Scikit-learn. The dataset includes information on various air pollutants such as sulfur dioxide (SO2), nitrogen dioxide (NO2), respirable suspended particulate matter (RSPM), suspended particulate matter (SPM), and particulate matter with a diameter of 2.5 micrometers or less (PM2.5). The analysis involves data preprocessing, visualization, and possibly machine learning modeling, as indicated by the use of the Scikit-learn library. The dataset contains over 400,000 rows and 13 columns, with information on different monitoring stations, sampling dates, states, and pollutant levels. The summary statistics provided in the file give an overview of the central tendency and dispersion of the pollutant levels in the dataset
+This project focuses on analyzing and predicting Air Quality Index (AQI) levels across different regions in India using data analysis and machine learning techniques. The study includes data preprocessing, exploratory data analysis (EDA), visualization of pollutant levels, AQI categorization, and predictive modeling.
+
+The objective is to gain insights into air pollution trends and build models capable of predicting AQI categories based on environmental pollutant measurements.
+
+---
+
+## Features
+
+* Data Cleaning and Preprocessing
+* Exploratory Data Analysis (EDA)
+* AQI Calculation and Categorization
+* Visualization of Air Pollution Trends
+* State-wise Pollutant Analysis
+* Machine Learning-Based AQI Prediction
+* Classification of Air Quality Categories
+* Performance Evaluation of Multiple Models
+
+---
+
+## Dataset
+
+The dataset contains air quality measurements collected from various locations in India.
+
+### Attributes
+
+* SO₂ (Sulphur Dioxide)
+* NO₂ (Nitrogen Dioxide)
+* RSPM (Respirable Suspended Particulate Matter)
+* SPM (Suspended Particulate Matter)
+* State Information
+* AQI Category
+
+Dataset file:
+
+```text
+AQI.xlsx
+```
+
+---
+
+## Technologies Used
+
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+---
+
+## Project Workflow
+
+### 1. Data Collection
+
+Load and inspect the air quality dataset.
+
+### 2. Data Preprocessing
+
+* Handle missing values
+* Remove inconsistencies
+* Prepare data for analysis
+
+### 3. Exploratory Data Analysis
+
+* Pollutant distribution analysis
+* State-wise pollutant comparison
+* AQI trend visualization
+
+### 4. Feature Engineering
+
+* Selection of relevant pollutant indicators
+* AQI categorization
+
+### 5. Model Training
+
+Machine learning algorithms are used to predict AQI categories based on pollutant concentrations.
+
+### 6. Model Evaluation
+
+Evaluate performance using classification metrics and accuracy scores.
+
+---
+
+## Visualizations
+
+The notebook includes various visualizations such as:
+
+* State-wise SO₂ Levels
+* State-wise NO₂ Levels
+* AQI Category Distribution
+* Pollutant Comparisons
+* Correlation Analysis
+
+---
+
+## Results
+
+The analysis identifies major pollution patterns and demonstrates how machine learning can be used to classify air quality levels based on environmental parameters.
+
+Key outcomes include:
+
+* Identification of pollutant trends across states
+* AQI category prediction
+* Comparative evaluation of classification models
+
+---
+
+## Repository Structure
+
+```text
+Data_Analysis_On_Indian_AQI/
+│
+├── AQI.xlsx
+├── IndianAQIanalysis.ipynb
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Swaroop-Haridas/Data_Analysis_On_Indian_AQI.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Data_Analysis_On_Indian_AQI
+```
+
+Install required libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```text
+IndianAQIanalysis.ipynb
+```
+---
+
