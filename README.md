@@ -87,18 +87,6 @@ Evaluate performance using classification metrics and accuracy scores.
 
 ---
 
-## Visualizations
-
-The notebook includes various visualizations such as:
-
-* State-wise SO₂ Levels
-* State-wise NO₂ Levels
-* AQI Category Distribution
-* Pollutant Comparisons
-* Correlation Analysis
-
----
-
 ## Project Visualizations
 
 ### State-wise AQI Analysis
@@ -124,6 +112,17 @@ Distribution of air quality categories showing the overall air pollution profile
 ## Results
 
 The analysis identifies major pollution patterns and demonstrates how machine learning can be used to classify air quality levels based on environmental parameters.
+
+## Machine Learning Models
+
+The following machine learning algorithms were trained and evaluated for AQI prediction:
+
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- K-Nearest Neighbors (KNN)
+
+These models were compared based on their classification performance and prediction accuracy.
 
 Key outcomes include:
 
